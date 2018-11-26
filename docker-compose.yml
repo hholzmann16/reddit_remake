@@ -1,0 +1,11 @@
+version: "3"
+services:
+
+  reddit:
+    image: "reddit"
+    container_name: "reddit"
+    build:
+      context: .
+    environment:
+      NODE_ENV: development
+
